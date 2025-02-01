@@ -1,0 +1,49 @@
+Benchmarking 52.205.133.96 (be patient)
+Completed 100 requests
+Completed 200 requests
+Completed 300 requests
+Completed 400 requests
+Completed 500 requests
+Completed 600 requests
+Completed 700 requests
+Completed 800 requests
+Completed 900 requests
+Completed 1000 requests
+Finished 1000 requests
+
+
+Server Software:        
+Server Hostname:        52.205.133.96
+Server Port:            8000
+
+Document Path:          /.
+Document Length:        253 bytes
+
+Concurrency Level:      10
+Time taken for tests:   11.793 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      318000 bytes
+HTML transferred:       253000 bytes
+Requests per second:    84.80 [#/sec] (mean)
+Time per request:       117.925 [ms] (mean)
+Time per request:       11.793 [ms] (mean, across all concurrent requests)
+Transfer rate:          26.33 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        1    6   7.5      1      21
+Processing:   101  110   7.8    104     142
+Waiting:      101  109   7.3    104     141
+Total:        102  116  10.3    117     143
+
+Percentage of the requests served within a certain time (ms)
+  50%    117
+  66%    120
+  75%    121
+  80%    122
+  90%    124
+  95%    139
+  98%    140
+  99%    143
+ 100%    143 (longest request)

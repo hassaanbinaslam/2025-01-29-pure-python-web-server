@@ -1,0 +1,49 @@
+Benchmarking 3.90.155.197 (be patient)
+Completed 100 requests
+Completed 200 requests
+Completed 300 requests
+Completed 400 requests
+Completed 500 requests
+Completed 600 requests
+Completed 700 requests
+Completed 800 requests
+Completed 900 requests
+Completed 1000 requests
+Finished 1000 requests
+
+
+Server Software:        
+Server Hostname:        3.90.155.197
+Server Port:            8000
+
+Document Path:          /
+Document Length:        249 bytes
+
+Concurrency Level:      10
+Time taken for tests:   12.061 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      314000 bytes
+HTML transferred:       249000 bytes
+Requests per second:    82.91 [#/sec] (mean)
+Time per request:       120.612 [ms] (mean)
+Time per request:       12.061 [ms] (mean, across all concurrent requests)
+Transfer rate:          25.42 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        1   10   7.8     15      20
+Processing:   102  109   8.2    104     136
+Waiting:      102  109   7.5    103     122
+Total:        102  119   8.5    120     141
+
+Percentage of the requests served within a certain time (ms)
+  50%    120
+  66%    120
+  75%    121
+  80%    121
+  90%    125
+  95%    139
+  98%    140
+  99%    140
+ 100%    141 (longest request)
